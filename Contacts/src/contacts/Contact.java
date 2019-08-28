@@ -24,22 +24,19 @@ public class Contact {
     
     public String toString(){
         return firstName + " " + lastName + " " + phoneNumber + "" + emailAddress;   }
-
-    String getFirstName() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    
+    public String getFirstName() {
+        return firstName;
     }
-
-    String getLastName() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
     /**
      * @param firstName the firstName to set
      */
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
-
+    public String getLastName() {
+        return lastName;
+    }
     /**
      * @param lastName the lastName to set
      */
